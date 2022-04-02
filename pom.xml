@@ -92,10 +92,10 @@
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>azure-functions-maven-plugin</artifactId>
                 <configuration>
+                    <schemaVersion>v2</schemaVersion>
                     <resourceGroup>java-functions-group</resourceGroup>
                     <appName>${functionAppName}</appName>
                     <region>westus2</region>
-                    <schemaVersion>v1</schemaVersion>
                     <appSettings>
                         <property>
                             <name>FUNCTIONS_EXTENSION_VERSION</name>
